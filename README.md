@@ -23,7 +23,7 @@ Once those have installed, type `npm start` to launch the web app in a browser w
 - If you need help on the rules of this game, click on the question mark toggle.
 ![Gameplay2](/gameplay2.png)
 
-- Select any letter to start playing the game of guessing the randomly generated word, if you guess incorrectly, the letter will be greyed out and the number of incorrect guesses remaining will drop by 1.
+- Select any letter to start playing the game of guessing the randomly generated word. If you guess incorrectly, the letter will be greyed out and the number of incorrect guesses remaining will drop by 1.
 ![Gameplay3](/gameplay3.png)
 
 - If you guess the letter correctly, the letter will be revealed and it will be down to you to guess the word before a completed hangman appears! 
