@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Hangman Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created using React, this is a recreational web app made for users to play the game, Hangman. This is the final capstone task of the <a target="_blank" href="https://www.hyperiondev.com/bootcamps/web-development/" > HyperionDev Web Development Bootcamp </a> and features the use of React hooks, function components and state management.
 
-## Available Scripts
+## Contents
 
-In the project directory, you can run:
+- Installation
+- Game Instructions
 
-### `npm start`
+## Installation
+To view this project, click on the green "<> Code" dropdown button on the top right hand side of the repository of files. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then click "Download ZIP" to download all the files as a zip file. Unzip the file and save all the files in a new folder.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Within that folder, open your terminal (or command prompt if you are using Windows) and type `npm install`. This will install the node modules necessary to run the app.
 
-### `npm test`
+Once those have installed, type `npm start` to launch the web app in a browser window.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Game Instructions
+- This is the page you will see when the web app is launched.
+![Gameplay1](/gameplay1.png)
 
-### `npm run build`
+- If you need help on the rules of this game, click on the question mark toggle.
+![Gameplay2](/gameplay2.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Select any letter to start playing the game of guessing the randomly generated word, if you guess incorrectly, the letter will be greyed out and the number of incorrect guesses remaining will drop by 1.
+![Gameplay3](/gameplay3.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- If you guess the letter correctly, the letter will be revealed and it will be down to you to guess the word before a completed hangman appears! 
+![Gameplay4](/gameplay4.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- If you get it right, you win! You can then choose to play again.
+![Gameplay5](/gameplay5.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- If not, you lose. You can still choose to play again.
+![Gameplay6](/gameplay6.png)
